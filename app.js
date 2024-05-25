@@ -174,11 +174,68 @@ else if (num1==6 || num2==5){
 
 }
 
-// var num = +prompt("enter a number");
-// var even = num%2==0;
 
-// if(num > 0 && num == even){
-//     document.write("<i>" + "You Write a NEGITIVE OR EVEN" + "<i>")
-// }else{
-//     document.write("<i>" + "You Write a POSITIVE OR ODD" + "<i>")
-// }
+
+
+
+var num = +prompt("enter a number");
+var even = num%2==0;
+
+if(num > 0 && num == even){
+    document.write("<i>" + "You Write a NEGITIVE OR EVEN" + "<i>")
+}else{
+    document.write("<i>" + "You Write a POSITIVE OR ODD" + "<i>")
+}
+var companyname = prompt("What is your previous company name?");
+var userexperience = +prompt("What is your previous experience?");
+var userskills = prompt("Do you three languages?")
+
+var companychecked = companyname === "Nisum" || "Devsinc";
+var experiencechecked = userexperience == 3;
+var skillschecked = userskills === "python" && "java";
+
+if (companychecked) {
+    if(experiencechecked){
+        if(skillschecked){
+            alert("Yahooo! That's GOOD");
+        }
+        else{
+        alert("Unfortunately  we are not hire you because of your sills")
+        }
+    }else{
+        alert("Your experience not matched")
+    }
+} else {
+    alert("You are not from our targeted company");
+}
+
+ 
+var mypassword = "SairaBatool";
+var userpassword = prompt("Enter Your Password Here!");
+var password = userpassword === mypassword ;  //"SairaBatool" 
+
+if(userpassword === " "){
+  alert("Please enter your password");
+}else if (password){
+    alert("Correct!")
+}
+else{
+   alert("Incorrect password")
+}
+
+
+// DELETEING AND INSERTION FROM LAST 
+var classmates = ["Bushra" , "Anila" , "Misbah" , "ayesha" , "Umm-e-Abiha" ,"Ammarah"]
+
+document.write(classmates)
+
+document.write("</br>")
+
+classmates.push("Saira")   //strings zaroor dena hota hai 
+document.write(classmates)
+
+document.write("</br>")
+
+classmates.pop() //no parameters passed in it
+classmates.pop() 
+document.write(classmates)
