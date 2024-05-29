@@ -141,18 +141,18 @@ if (companychecked) {
     alert("You are not from our targeted company");
 }
 
-var mypassword = "SairaBatool";
-var userpassword = prompt("Enter Your Password Here!");
-var password = userpassword === mypassword;  //"SairaBatool" 
+// var mypassword = "SairaBatool";
+// var userpassword = prompt("Enter Your Password Here!");
+// var password = userpassword === mypassword;  //"SairaBatool" 
 
-if (userpassword === " ") {
-    alert("Please enter your password");
-} else if (password) {
-    alert("Correct!")
-}
-else {
-    alert("Incorrect password")
-}
+// if (userpassword === " ") {
+//     alert("Please enter your password");
+// } else if (password) {
+//     alert("Correct!")
+// }
+// else {
+//     alert("Incorrect password")
+// }
 
 // DELETEING AND INSERTION FROM LAST 
 var classmates = ["Bushra", "Anila", "Misbah", "ayesha", "Umm-e-Abiha", "Ammarah"]
