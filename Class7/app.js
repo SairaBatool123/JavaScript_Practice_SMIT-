@@ -30,3 +30,57 @@ document.write("<select>" +
 document.write("<br>")
 
 
+// ****************************Class # 8*******************************
+
+var table = +prompt("Enter Any Table You want");
+var count = +prompt("Which line do you print");
+var start = +prompt("Enter you wanna be start");
+
+for(i = start; i<=count; i++){
+    document.write(table + "x" + i + "=" + table*i + "<br>");
+}
+
+var arr = ["saira", "sajida", "Shafqat"]
+
+//arr humesha 0 se start hoga arr humesha length se call kiye jatye hain for large number of data and arr mai hum humesha < ya > lagatye hain = nhi lagatyen hain not print with comma!!
+for (var i = 0; i < arr.length; i++) {
+    document.write(arr[i] + "<br>")
+}
+
+// pop and push are efficient because 
+
+
+var city = ["karachi", "lahore", "islamabad", "Quetta"]
+var usercity = prompt("enter your city");
+var matched = "no" //false  //flag variable jis ko hum loop or if mai used karyen gyen 
+
+for (var i = 0; i < city.length; i++) {
+    if (city[i] === usercity) {
+        matched = "yes"
+        document.write("City Found <br>")
+        break //rok do sare check na karo bs index pr ja ker wahin check karo
+    }
+}
+if (matched == "no") {
+    document.write("City Not Found <br>")
+}
+
+var menu = ["biryani", "karahi", "paratha", "Kabab", "fries", "Chicken Shawarma", "Qurma", "Qeema", "Alo ghoust"]
+var resturant = prompt("Please! enter what You want to eat?");
+var matched = false
+
+for (var i = 0; i < resturant.length; i++) {
+    if (menu[i] === resturant) {
+        matched = true
+        document.write("Food is available");
+        break;
+    }
+}
+if (matched == false) {
+    document.write("Here is Our Menu!!" + "<br>");
+    for (i = 0; i < menu.length; i++) {
+        document.write( menu[i] + "<br>");
+    }
+}
+
+// array ki data type object hoti hai yeh aik error hai 
