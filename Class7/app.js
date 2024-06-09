@@ -84,3 +84,61 @@ if (matched == false) {
 }
 
 // array ki data type object hoti hai yeh aik error hai 
+
+// ****************************Class # 9*******************************
+
+//Nested Loop:
+for(var i = 1; i <=5; i++){
+    for(var j = 1; j <= 5; j++){
+        document.write( "*" )
+    }
+    document.write("<br>")
+}
+
+
+for(var i=1; i <=5 ; i++){
+    for(var j=1; j<=i; j++){ 
+        document.write("*")
+    }
+    document.write("<br>")
+}
+
+
+for (var i = 1; i <= 5; i++) {
+    for (var j = 5; j >= i; j--) {
+        document.write("*")
+    }
+    document.write("<br>")
+}
+
+var userinput = +prompt("Enter Any Rows And Column YOu Wanna Print");
+for (var i = 1; i <= userinput; i++) {
+    for (var j = 1; j <= userinput; j++) {
+        document.write("*")
+    } 
+    document.write("<br>")
+}
+
+
+
+
+var firstinput = +prompt("Enter A first method");
+
+for(var i = 1; i <= firstinput; i++){
+    for(var j = 1; j >= firstinput )
+    document.write("*")
+}
+
+
+
+
+
+var stdName=["sara" , "zara" , "sana"]
+var fName = ["Ali" , "Khan"]
+
+for(i=0 ; i<stdName.length; i++){
+for(j=0 ; j<fName.length; j++){
+    document.write(stdName[i] + " " + fName[j] + "<br>")
+}
+}
+
