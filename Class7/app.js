@@ -25,7 +25,7 @@ courses.unshift("New course")
 document.write(courses)
 
 document.write("<select>" +
-    '<option  value= '+courses[1]+'>' + courses[1] + '</option>'
+    '<option  value= ' + courses[1] + '>' + courses[1] + '</option>'
     + "</select>")
 document.write("<br>")
 
@@ -36,8 +36,8 @@ var table = +prompt("Enter Any Table You want");
 var count = +prompt("Which line do you print");
 var start = +prompt("Enter you wanna be start");
 
-for(i = start; i<=count; i++){
-    document.write(table + "x" + i + "=" + table*i + "<br>");
+for (i = start; i <= count; i++) {
+    document.write(table + "x" + i + "=" + table * i + "<br>");
 }
 
 var arr = ["saira", "sajida", "Shafqat"]
@@ -79,7 +79,7 @@ for (var i = 0; i < resturant.length; i++) {
 if (matched == false) {
     document.write("Here is Our Menu!!" + "<br>");
     for (i = 0; i < menu.length; i++) {
-        document.write( menu[i] + "<br>");
+        document.write(menu[i] + "<br>");
     }
 }
 
@@ -88,16 +88,16 @@ if (matched == false) {
 // ****************************Class # 9*******************************
 
 //Nested Loop:
-for(var i = 1; i <=5; i++){
-    for(var j = 1; j <= 5; j++){
-        document.write( "*" )
+for (var i = 1; i <= 5; i++) {
+    for (var j = 1; j <= 5; j++) {
+        document.write("*")
     }
     document.write("<br>")
 }
 
 
-for(var i=1; i <=5 ; i++){
-    for(var j=1; j<=i; j++){ 
+for (var i = 1; i <= 5; i++) {
+    for (var j = 1; j <= i; j++) {
         document.write("*")
     }
     document.write("<br>")
@@ -115,30 +115,24 @@ var userinput = +prompt("Enter Any Rows And Column YOu Wanna Print");
 for (var i = 1; i <= userinput; i++) {
     for (var j = 1; j <= userinput; j++) {
         document.write("*")
-    } 
+    }
     document.write("<br>")
 }
 
-
-
-
 var firstinput = +prompt("Enter A first method");
 
-for(var i = 1; i <= firstinput; i++){
-    for(var j = 1; j >= firstinput )
-    document.write("*")
+for (var i = 1; i <= firstinput; i++) {
+    for (var j = 1; j >= firstinput )
+        document.write("*")
 }
 
 
+var stdName = ["sara", "zara", "sana"]
+var fName = ["Ali", "Khan"]
 
-
-
-var stdName=["sara" , "zara" , "sana"]
-var fName = ["Ali" , "Khan"]
-
-for(i=0 ; i<stdName.length; i++){
-for(j=0 ; j<fName.length; j++){
-    document.write(stdName[i] + " " + fName[j] + "<br>")
-}
+for (i = 0; i < stdName.length; i++) {
+    for (j = 0; j < fName.length; j++) {
+        document.write(stdName[i] + " " + fName[j] + "<br>")
+    }
 }
 
