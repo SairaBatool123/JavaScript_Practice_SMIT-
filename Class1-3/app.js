@@ -6,7 +6,7 @@ console.log("HI");
 
 // DATA TYPE 
 var string = "Saira";
-var int = 65;
+var int = 65; //number
 var boolean = true;
 console.log(string);
 
@@ -109,8 +109,8 @@ alert("Hello " + userName) //Hello Saira
 // ****************************Class # 3*******************************
 
 // INCREMENT AND DECREMENT 
-// ++num;//pre
-// num++;//post
+// ++num;//pre a+1 = a i think so
+// num++;//post 
 var a = 2;
 var b = 10;
 // a++ = a= a+1
@@ -119,8 +119,8 @@ var b = 10;
 // document.write(++a + a++ + a)//3 + 3 + 4 =  10
 document.write(a++ + ++a + a + "<br/>"); // 2 + 4 + 4 = 10
 document.write(--b + b-- + b + "<br/>"); // 9 + 9 + 8 = 26
-// document.write(a++ + --a + ++b - b++) // 2 + 2 + 11 - 11
-document.write(++b + "<br/>"); //9
+// document.write(a++ + --a + ++b - b++) // 2 + 2 + 11 - 11 = 4
+document.write(++b + "<br/>"); //11
 document.write("Umra" + a + "</br>") // Umra2
 document.write("Umra" - a + "</br>") // NaN
 

@@ -27,7 +27,7 @@ document.write(tableNum + "x" + counter++ + "=" + tableNum * inc++ + "</br>" +
 document.write(3 == "3")    //true
 document.write("<br>");
 
-document.write(6 !== "6"); //true
+document.write(6 !== "6"); //true OR !=
 document.write("<br>");
 
 var isRaining = false;
@@ -100,7 +100,7 @@ var num1 = 6;
 var num2 = 3;
 
 if (num1 < 10 && num2 > 1) {
-    document.write("True")
+    document.write("True") //True
 }else if ((num1 == 6 && num2 == 3) || num2 == 3) {
     document.write("Kia print hoga tm batao");
 }else if (num1 == 6 || num2 == 5) {
