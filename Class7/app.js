@@ -47,7 +47,7 @@ for (var i = 0; i < arr.length; i++) {
     document.write(arr[i] + "<br>")
 }
 
-// pop and push are efficient because 
+// pop and push are efficient because on ki indexing same rehti hai or jb hum unshift shift kertyen hain to sb apna index change kertye hain
 
 
 var city = ["karachi", "lahore", "islamabad", "Quetta"]
