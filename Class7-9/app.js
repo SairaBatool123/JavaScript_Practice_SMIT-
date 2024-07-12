@@ -122,8 +122,9 @@ for (var i = 1; i <= userinput; i++) {
 var firstinput = +prompt("Enter A first method");
 
 for (var i = 1; i <= firstinput; i++) {
-    for (var j = 1; j >= firstinput )
+    for (var j = 1; j >= firstinput){
         document.write("*")
+    }
 }
 
 
