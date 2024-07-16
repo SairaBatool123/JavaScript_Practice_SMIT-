@@ -52,3 +52,46 @@ for(var i = 0; i < text.length ; i++){
     }}
 
     // ch 21 - 25 miss k github se dekho not complete 
+
+
+
+
+
+
+
+
+
+
+    // var head = prompt("Enter a Head Name Member");
+// var tail = prompt("Enter a Tail Name Member");
+// var ans = Math.floor(chtoss)
+// var chtoss = Math.random()*2
+// if(head === 1){
+//     document.write(chtoss + "She is a winner" + "<br>")
+// }
+// else{
+//     document.write(chtoss + "She is a winner")
+// }
+
+
+var randompass = "12absdj4G85-4-=-3402348823487109230-o";
+var password = "";
+
+for (var i = 0; i < 10; i++) {
+    var randomValues = Math.floor(Math.round() * randompass.length)
+    password += randompass[randomValues]
+}
+document.write(password)
+
+
+
+// password += randompass
+// var round = Math.round(Math.floor())
+
+// for(i = 0 ; i <= 10 ; i++){
+//     document.write(password);
+// }
+// document.write(password)
+
+
+// Chap 31 Some Mistake Were Accure GitHub account check miss umra New Day () get.day() all are cover in this class but not practicing in class so practice by your selkf 
