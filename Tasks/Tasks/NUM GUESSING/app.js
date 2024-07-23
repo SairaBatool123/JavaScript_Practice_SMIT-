@@ -1,6 +1,6 @@
 //NUMBER GUESSING GAME
 
-var userInput = +prompt("Please Enter Any Number Here 👇");
+var userInput = +prompt("Please Enter Any Number Here 1-10 👇");
 var secretNum = 8;
 
 if(userInput == secretNum){
