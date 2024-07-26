@@ -22,3 +22,17 @@ border-radius: 25px;
     font-weight: bolder;
     background-color: none;
 }
+button{
+    /* text-align: center; */
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+    font-weight: bolder;
+    width: 90px;
+    height:40px;
+    background-color: #4057ae9e; 
+    /* padding: 0 auto; */
+    margin: 0 auto;
+    /* margin-top: 150px;
+    margin-left: 275px; */
+    }
