@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+ 
+  }
+  .card {
+    
+    border-radius: 10px;
+    text-align: center;
+    padding: 50px;
+    background-color: #fbdeda;
+  }
+  h1 {
+    font-size: 50px;
+  }
+  body{
+    background-repeat: no-repeat;
+    background-image: url('https://storage.ko-fi.com/cdn/useruploads/display/b4efe8e1-75ac-4831-8b3b-374cd03c9e47_sakuraviewingbganimatedgif.gif');
+    background-size: cover;
+  }
+  .container {
+    margin: 130px;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+    /* width: 100; */
+    /* height: 100% ; */
+  }
+  span {
+      /* margin: 30px; */
+    /* margin: 50px; */
+    font-size: 100px;
+    color: rgb(54, 52, 52);
+  }
+  .btn {
+    font-size: 20px;
+    background: none;
+    border: 3px solid gray;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 5px;
+    cursor: pointer;
+  }
+  
