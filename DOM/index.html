@@ -8,9 +8,22 @@
 </head>
 
 <body>
+    <!-- "         ' '       " -->
     <h3>Email</h3>
     <input type="email" onfocus="focusOn()" onblur="focusOut()" id="mail">
-    <button id="action">Submit</button>
+    <button onclick="getemail()">Submit</button>
+
+    <!-- OR -->
+    <!-- <input type="email" onfocus="this.style.backgroundColor='red'" id="mail"> -->
+     <script>
+        function getemail(){
+        var email = document.getElementById("email");
+        alert(name.value)
+    }
+     </script>
+
+
+<!-- inputfield mai jo hum likhte hain wo temporary value mai save ho raha hota hai  -->
 
     <h1>Counter</h1>
     <button onclick="start()">Start</button>
